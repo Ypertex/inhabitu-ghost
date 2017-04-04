@@ -1,0 +1,13 @@
+<nav class="nav">
+    <div class="container">
+        <div class="nav-left">
+            {{#foreach navigation limit="1"}}
+            <a href="{{@blog.url}}" class="nav-item is-active is-tab"><img src="{{asset "ypertex-logo-2017-01-inverted-56-square-transparent.png"}}" style="margin-right:0.5rem"> {{@blog.title}}</a>
+            {{/foreach}}
+        </div>
+        <div class="nav-center">
+	        <a href="{{twitter_url}}" class="nav-item" style="margin-right:1em"><i class="inhabitu-twitter icon"></i><span class="is-hidden-mobile">{{@blog.twitter}}</span></a>
+	        <a href="{{@blog.url}}/rss/" class="nav-item"><i class="inhabitu-rss icon"></i><span class="is-hidden-mobile">RSS feed</span></a>
+        </div>
+    </div>
+</nav>

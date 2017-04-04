@@ -1,0 +1,37 @@
+{{!< default}}
+<header class="hero is-primary">
+	<div class="hero-head">
+		{{navigation}}
+	</div>
+	{{#tag}}
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<p>{{plural ../pagination.total empty="% articles" singular="% article" plural="% articles"}} <i class="inhabitu-tag icon"></i> tagged with</p>
+			<h1 class="title is-2">{{name}}</h1>
+		</div>
+	</div>
+</header>
+<main class="section">
+	{{#if description}}
+    <div class="container">
+		<span class="heading">About the tag</span>
+    	<div class="card" style="margin-bottom:48px">
+			<div class="card-content">
+					<div class="media-content">
+						<p>{{description}}</p>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </div>
+    {{/if}}
+{{/tag}}
+    <div class="container"> 
+		{{> posts-index}}
+	</div>
+</main>
+<div class="inhabitu-emphasize section">
+	<div class="container">
+		{{pagination}}
+	</div>
+</div>

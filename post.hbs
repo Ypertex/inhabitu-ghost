@@ -1,0 +1,35 @@
+{{!< default}}
+{{#post}}
+<header class="hero is-primary">
+	<div class="hero-head">
+		{{navigation}}
+	</div>
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<h1 class="title is-2">{{title}}</h1>
+		</div>
+	</div>
+</header>
+<main class="section">
+	<div class="content container">
+		{{> post}}
+	</div>
+</main>
+{{> share}}
+<section class="section">
+	<div class="container">
+		{{#next_post}}
+		<div class="inhabitu-related-post">
+			<span class="heading">Next article</span>
+			{{> post-index}}
+		</div>
+		{{/next_post}}
+		{{#prev_post}}
+		<div class="inhabitu-related-post">
+			<span class="heading">Previous article</span>
+			{{> post-index}}
+			{{/prev_post}}
+		</div>
+	</div>
+</section>
+{{/post}}

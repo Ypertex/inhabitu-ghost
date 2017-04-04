@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{asset "assets/favicon.ico"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "inhabitu.css"}}">
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+    {{{body}}}
+    <footer class="footer has-text-centered">
+        <a href="{{twitter_url}}" style="margin-right:1em"><i class="inhabitu-twitter icon"></i>{{@blog.twitter}}</a>
+        <a href="{{@blog.url}}/rss/"><i class="inhabitu-rss icon"></i>RSS feed</a>
+        <p>Copyright © {{date format="YYYY"}} <a href="{{@blog.url}}">{{@blog.title}}</a></p>
+    </footer>
+{{ghost_foot}}
+</body>
+</html>

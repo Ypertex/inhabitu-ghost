@@ -1,0 +1,22 @@
+{{!< default}}
+{{> index-header}}
+{{#foreach posts limit="1"}}
+<main class="section">
+	<div class="content container">
+		<h1 class="title is-2">{{title}}</h1>
+		{{> post}}
+	</div>
+</main>
+{{> share}}
+{{/foreach}}
+<section class="section">
+	<div class="content container">
+		<span class="heading">Other recent articles</span>
+		{{> posts-home}}
+	</div>
+</section>
+<section class="inhabitu-emphasize section">
+		<div class="container">
+			{{pagination}}
+		</div>
+</section>

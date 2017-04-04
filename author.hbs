@@ -1,0 +1,50 @@
+{{!< default}}
+<header class="hero is-primary">
+	<div class="hero-head">
+		{{navigation}}
+	</div>
+	{{#author}}
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<p>{{plural ../pagination.total empty="% articles" singular="% article" plural="% articles"}} <i class="inhabitu-quill-pen icon"></i> written by</p>
+			<h1 class="title is-2">{{name}}</h1>
+		</div>
+	</div>
+</header>
+<main class="section">
+    <div class="container">
+		<div class="heading">About the author</div>
+		<div class="card" style="margin-bottom:48px">
+			<div class="card-content">
+				<div class="media">
+					<figure class="media-left image is-64x64">
+						<img src="{{image}}" style="border-radius:100%">
+					</figure>
+					<div class="media-content">
+						<strong>{{name}}</strong>
+						<p>{{bio}}</p>
+					</div>
+				</div>
+				<hr>
+				<div class="level">
+					<div class="level-left">
+						<div class="level-item">
+							<i class="inhabitu-pin icon"></i>{{location}}
+						</div>
+						<div class="level-item">
+							<a href="{{twitter_url}}"><i class="inhabitu-twitter icon"></i>{{twitter}}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    {{/author}}
+    <div class="container"> 
+		{{> posts-index}}
+	</div>
+</main>
+<div class="inhabitu-emphasize section">
+	<div class="container">
+		{{pagination}}
+	</div>
+</div>
