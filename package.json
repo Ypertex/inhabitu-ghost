@@ -24,8 +24,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/ypertex/inhabitu.git"
+        "url": "https://github.com/ypertex/inhabitu"
     },
-    "bugs": "https://bitbucket.org/ypertex/inhabitu/issues",
-    "contributors": "https://bitbucket.org/ypertex/inhabitu"
+    "bugs": "https://github.com/ypertex/inhabitu/issues",
+    "contributors": "https://github.com/ypertex/inhabitu/graphs/contributors"
 }
