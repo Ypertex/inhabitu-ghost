@@ -2,7 +2,7 @@
     "name": "inhabitu",
     "description": "Single column theme.",
     "demo": "https://blog.ypertex.com",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
