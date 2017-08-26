@@ -1,9 +1,9 @@
 <div class="level">
 	<div class="level-left">
 		<div class="media level-item">
-			<figure class="media-left image is-32x32">
+			<div class="media-left image is-32x32">
 				<img src="{{author.profile_image}}" style="border-radius:100%">
-			</figure>
+			</div>
 			<small class="media-content">
 				<strong>{{author}}</strong>
 				<time class="heading" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMMM DD, YYYY"}}</time>
@@ -12,9 +12,9 @@
 	</div>
 	{{#if tags}}
 	<div class="level-right">
-		<span class="level-item" style="display:inline">
+		<span class="level-item">
 			{{#foreach tags}}
-			<a href="{{url}}" class="tag"><i class="inhabitu-tag icon"></i>{{name}}</a>
+			<a href="{{url}}" class="tag is-rounded"><i class="inhabitu-tag icon"></i>{{name}}</a>
 			{{/foreach}}
 		</span>
 	</div>
