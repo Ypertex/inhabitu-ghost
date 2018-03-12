@@ -1,10 +1,10 @@
 # About Inhabitu
 
-Inhabitu is a single-column theme for the [Ghost publishing platform](https://ghost.org). It was developed for the [ypertex blog](https://blog.ypertex.com). The name Inhabitu comes from the latin expression “in habitu” and means “in disguise”—what an interface theme esentially is there for: to disguise it.
+Inhabitu is a single-column theme for the [Ghost publishing platform](https://ghost.org). It was developed for the [Ypertex blog](https://blog.ypertex.com). The name Inhabitu comes from the latin expression “in habitu” and means “in disguise”—what an interface theme esentially is there for: to disguise it.
 
 # Compatibility to Ghost Releases
 
-Known compatibility limitations between [inhabitu releases](https://github.com/ypertex/inhabitu-ghost/releases) and Ghost versions are specified per release.
+Known compatibility limitations between [Inhabitu releases](https://github.com/ypertex/inhabitu-ghost/releases) and Ghost versions are specified per release.
 
 # Attribution
 
@@ -12,7 +12,7 @@ The theme Inhabitu is based on the [CSS framework Bulma](http://bulma.io).
 
 # Disclaimer
 
-**This theme is heavily customized for use on the [ypertex blog](https://blog.ypertex.com). It is not recommended to directly use it on your productive Ghost instance without prior customization to your own blog.**
+**This theme is heavily customized for use on the [Ypertex blog](https://blog.ypertex.com). It is not recommended to directly use it on your productive Ghost instance without prior customization to your own blog.**
 
 # Known Issues
 
