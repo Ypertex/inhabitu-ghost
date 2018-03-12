@@ -4,7 +4,7 @@ Inhabitu is a single-column theme for the [Ghost publishing platform](https://gh
 
 # Compatibility to Ghost Releases
 
-Known compatibility limitations between [inhabitu releases](https://github.com/ypertex/inhabitu/releases) and Ghost versions are specified per release.
+Known compatibility limitations between [inhabitu releases](https://github.com/ypertex/inhabitu-ghost/releases) and Ghost versions are specified per release.
 
 # Attribution
 
@@ -16,8 +16,8 @@ The theme Inhabitu is based on the [CSS framework Bulma](http://bulma.io).
 
 # Known Issues
 
-Please check out the list of [issues documented at Github](https://github.com/ypertex/inhabitu/issues).
+Please check out the list of [issues documented at Github](https://github.com/ypertex/inhabitu-ghost/issues).
 
 # Contribution
 
-Feel free to open any [issues](https://github.com/ypertex/inhabitu/issues/new) to submit bugs or feature requests. Your help is welcome. Thanks!
+Feel free to open any [issues](https://github.com/ypertex/inhabitu-ghost/issues/new) to submit bugs or feature requests. Your help is welcome. Thanks!
